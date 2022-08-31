@@ -1,18 +1,18 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'TestTaskNatife' do
+target 'TestTask' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for TestTaskNatife
 pod 'SwiftMessages'
-  target 'TestTaskNatifeTests' do
+  target 'TestTaskTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'TestTaskNatifeUITests' do
+  target 'TestTaskUITests' do
     # Pods for testing
   end
 
